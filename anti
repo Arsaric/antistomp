@@ -1,0 +1,29 @@
+game.StarterGui:SetCore("SendNotification", {
+Title = "💀 Anti-Stomp 💀";
+Text = "🚨 Loaded into DaHood 🚨";
+Duration = "5";
+})
+game.StarterGui:SetCore("SendNotification", {
+Title = "💸 Keybinds 💸";
+Text = "🔑 Press K To Anti Stomp 🔑";
+Duration = "5";
+})
+game.StarterGui:SetCore("SendNotification", {
+Title = "🌟 Credits 🌟";
+Text = "📝 Edited By Paci 📝";
+Duration = "5";
+})
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
+--You can edit keybind my changing "k" to wtv u want
+ if KeyPressed == "k" then
+     --Dont Edit Below ❌
+    for L_170_forvar0, L_171_forvar1 in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+        if L_171_forvar1:IsA("BasePart") then
+            L_171_forvar1:Destroy()
+        end
+    end
+
+        local UserInputService = game:GetService("UserInputService")
+    end
+end)
