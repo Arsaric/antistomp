@@ -1,16 +1,11 @@
 game.StarterGui:SetCore("SendNotification", {
-Title = "💀 Anti-Stomp 💀";
+Title = "💚 Anti-Stomp 💚";
 Text = "🚨 Loaded into DaHood 🚨";
 Duration = "5";
 })
 game.StarterGui:SetCore("SendNotification", {
 Title = "💸 Keybinds 💸";
 Text = "🔑 Press K To Anti Stomp 🔑";
-Duration = "5";
-})
-game.StarterGui:SetCore("SendNotification", {
-Title = "🌟 Credits 🌟";
-Text = "📝 Edited By Paci 📝";
 Duration = "5";
 })
 
